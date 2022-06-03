@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    html,body{
+    margin: 0px;
+}
+body {
+    background-color: #1d3557;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card   {
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 12px;
+    border-color: rgba(12, 17, 24, 0.3);
+    background-color: #457b9d;
+    min-width: 30%;
+    min-height: 55%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sign-in {
+    border-style: solid;
+    border-color: #457b9d;
+    border-width: 4px;
+    border-bottom-width: 2px;
+    border-bottom-color: #ffffff;
+    text-transform: capitalize;
+    text-align: center;
+    color: #dee4ed;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.login {
+    margin-top: 20%;
+}
+input {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    text-align: center;
+    font-weight: lighter;
+}
+input[type=password] {
+    margin-top: 2%;
+}
+button {
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(34, 34, 160);
+    border: 1px solid black;
+    opacity: 1;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: rgb(34, 34, 160);
+    font-size: 20px;
+    font-weight: lighter;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <H1 class="sign-in">Log in</H1>
+            <form class="login"></form>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Log in</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
