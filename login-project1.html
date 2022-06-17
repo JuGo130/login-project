@@ -15,7 +15,7 @@
     margin: 0px;
 }
 body {
-    background-color: #1d3557;
+    background-color: #f7f7f2;
 }
 .container {
     width: 100vw;
@@ -30,56 +30,48 @@ body {
     border-style: solid;
     border-width: 4px;
     border-radius: 12px;
-    border-color: rgba(12, 17, 24, 0.3);
-    background-color: #457b9d;
+    border-color: #ffffff;
+    background-color: #ffffff;
     min-width: 30%;
     min-height: 55%;
-    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     min-width: 35%;
 }
 .sign-in {
-    border-style: solid;
-    border-color: #457b9d;
-    border-width: 4px;
-    border-bottom-width: 2px;
-    border-bottom-color: #ffffff;
-    text-transform: capitalize;
-    text-align: center;
-    color: #dee4ed;
-    align-items: center;
+    align-self: center;
+    color: #000000;
+    font-size: xx-large;
+
 }
 input {
-    align-self: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 21%;
+    margin-left: 21%;
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.6;
-    text-align: center;
     font-weight: lighter;
-    border-radius: 30%;
-    border-top: #457b9d;
-    border-left: #457b9d;
-    border-right: #457b9d;
-    border-bottom: #ffffff;
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
     
 }
 input[type=password] {
     margin-top: 2%;
 }
 button {
-    align-self: center;
-    background-color: rgb(34, 34, 160);
+    background-color: rgb(14, 86, 187);
     border: 1px solid black;
     opacity: 1;
-    border-radius: 5px;
+    border-radius: 20px;
     border-width: 5px;
-    border-color: rgb(74, 74, 253);
+    border-color: rgb(14, 86, 187);
     font-size: 20px;
     font-weight: lighter;
     min-width: 20%;
-
+    color: #ffffff;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 button:hover {
     background-color: rgb(49, 49, 243);
@@ -89,32 +81,20 @@ button:focus {
     background-color: rgb(83, 83, 214);
     border-color: rgb(83, 83, 214);
 }
-.jedi {
-    align-self: center;
-    color: red;
-}
 
-.starwars {
-width: 300px;
-
-
-}
 </style>
 <body>
     <div class="container">
-            <img src="C:\Users\juan_\OneDrive\Desktop\programing\bvtca\projects\html-css-projects\login-project\PinClipart.com_star-wars-clip-art_5231026.png" class="starwars" alt="star wars logo">
                 <div class="card">
-                    <H1 class="sign-in">Log in</H1>
+                    <H1 class="sign-in">Sign in</H1>
                         <form class="login"></form>
-                            <input type="text" placeholder="Username" required>
-                            <input type="password" placeholder="Password" required>
-                            <button type="submit">Log in</button>
-                                <div class="jedi">
-                                    <i class="fa-solid fa-jedi fa-3x fa-flip" style="--fa-animation-duration: 5s;"></i>
-                                </div>
-                        </form>
-                </div>
-        
+                            <input type="text" placeholder="username" required>
+                            <input type="password" placeholder="password" required>
+                            <button type="submit">Sign in</button>
+                        
+                 </div>
     </div>
+        
+
 </body>
 </html>
